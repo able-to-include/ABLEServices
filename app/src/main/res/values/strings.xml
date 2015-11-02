@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ABLE Services</string>
+    <string name="title_activity_display_simplified_text">Simplified Text</string>
+    <string name="title_activity_display_pictos">Pictograms</string>
+    <string name="title_activity_display_speech">Speech</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_simplext">Simplext</string>
+    <string name="action_text2picto">Text2Picto</string>
+    <string name="action_text2speech">Text2Speech</string>
+    <string name="input_hint">Write your text here</string>
+    <string name="input_text">Input text:</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="input_error">Input Error</string>
+    <string name="input_text_cannot_be_empty">Input text cannot be empty.</string>
+    <string name="ok">Ok</string>
+    <string name="play">Play</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="language">Language:</string>
+    <string name="pressToHearSpeech">Press the PLAY button to hear the speech.</string>
+
+
+
+    <!-- Strings related to Settings -->
+    <!-- General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_language">Language</string>
+
+
+
+    <!-- Languages for Simplext service -->
+    <string-array name="languages_simplext">
+        <item>English</item>
+        <item>Spanish</item>
+    </string-array>
+    <string-array name="languages_simplext_values">
+        <item>english</item>
+        <item>spanish</item>
+    </string-array>
+    <!-- Languages for Text2Picto service -->
+    <string-array name="languages_text2picto">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>Dutch</item>
+    </string-array>
+    <string-array name="languages_text2picto_values">
+        <item>english</item>
+        <item>spanish</item>
+        <item>cornetto</item>
+    </string-array>
+    <!-- Languages for Text2Speech service -->
+    <string-array name="languages_text2speech">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+    </string-array>
+    <string-array name="languages_text2speech_values">
+        <item>english</item>
+        <item>spanish</item>
+        <item>french</item>
+    </string-array>
+
+
+    <!-- Settings for pictograms -->
+    <string name="pref_title_pictogram_base">Pictogram base:</string>
+    <string-array name="pref_pictogram_base_titles">
+        <item>Beta</item>
+        <item>Sclera</item>
+    </string-array>
+
+    <string name="action_credits">Credits</string>
+    <string name="title_activity_credits">Credits</string>
+    <string name="version_label">Version:</string>
+    <string name="copyright">ABLE App \u00A9 2015 Ariadna Servicios Informáticos, S.L.</string>
+    <string name="contact_label">Contact:</string>
+    <string name="contact_email">inf@asi-soft.com</string>
+    <string name="developed_by_label">Developed by:</string>
+    <string name="developer">Javier Sánchez Hernández</string>
+    <string name="definition">This App integrates the three services provided by Able to Include Consortium partners.</string>
+    <string name="definition_simplext">Simplext: Universidad Pompeu Fabra &amp; Ariadna S.I.</string>
+    <string name="definition_text2picto">Text2Picto: Katholieke Universiteit Leuven.</string>
+    <string name="definition_eSpeak">eSpeak: a Text2Speech open source tool.</string>
+
+    <string name="conversion_error">Conversion error</string>
+    <string name="conversion_error_explanation">There was a problem converting the text.</string>
+    <string name="availability_error">Availability error</string>
+    <string name="availability_error_explanation">The selected service is not available for the %1$s language.</string>
+
+    <string name="service_error">Service error</string>
+    <string name="error408">Timeout expired</string>
+    <string name="error451">You have not entered text</string>
+    <string name="error452">You have not entered language</string>
+    <string name="error453">You have not entered type of pictogram</string>
+    <string name="error454">You have not entered neither text nor language</string>
+    <string name="error455">You have not entered neither text nor language or type of pictogram</string>
+    <string name="error456">You have not entered neither language nor type of pictogram</string>
+    <string name="error457">You have not entered neither text nor type of pictogram</string>
+    <string name="error458">The language is not valid</string>
+    <string name="error459">The type of pictogram is not valid</string>
+</resources>

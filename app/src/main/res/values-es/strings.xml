@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ABLE Services</string>
+    <string name="title_activity_display_simplified_text">Texto simplificado</string>
+    <string name="title_activity_display_pictos">Pictogramas</string>
+    <string name="title_activity_display_speech">Voz</string>
+    <string name="title_activity_settings">Preferencias</string>
+
+    <string name="action_settings">Preferencias</string>
+    <string name="action_simplext">Simplext</string>
+    <string name="action_text2picto">Text2Picto</string>
+    <string name="action_text2speech">Text2Speech</string>
+    <string name="input_hint">Escribe aquí tu texto</string>
+    <string name="input_text">Texto de entrada:</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="input_error">Error de entrada</string>
+    <string name="input_text_cannot_be_empty">El texto de entrada no puede estar vacío.</string>
+    <string name="ok">Aceptar</string>
+    <string name="play">Reproducir</string>
+    <string name="drawer_open">abrir</string>
+    <string name="drawer_close">cerrar</string>
+    <string name="language">Idioma:</string>
+    <string name="pressToHearSpeech">Pulsa el botón PLAY para escuchar el discurso.</string>
+
+    <!-- Strings related to Settings -->
+    <!-- General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_language">Idioma</string>
+
+    <!-- Languages for Simplext service -->
+    <string-array name="languages_simplext">
+        <item>Inglés</item>
+        <item>Español</item>
+    </string-array>
+    <string-array name="languages_simplext_values">
+        <item>english</item>
+        <item>spanish</item>
+    </string-array>
+    <!-- Languages for Text2Picto service -->
+    <string-array name="languages_text2picto">
+        <item>Inglés</item>
+        <item>Español</item>
+        <item>Holandés</item>
+    </string-array>
+    <string-array name="languages_text2picto_values">
+        <item>english</item>
+        <item>spanish</item>
+        <item>cornetto</item>
+    </string-array>
+    <!-- Languages for Text2Speech service -->
+    <string-array name="languages_text2speech">
+        <item>Inglés</item>
+        <item>Español</item>
+        <item>Francés</item>
+    </string-array>
+    <string-array name="languages_text2speech_values">
+        <item>english</item>
+        <item>spanish</item>
+        <item>french</item>
+    </string-array>
+
+    <!-- Settings for pictograms -->
+    <string name="pref_title_pictogram_base">Base de pictogramas:</string>
+    <string-array name="pref_pictogram_base_titles">
+        <item>Beta</item>
+        <item>Sclera</item>
+    </string-array>
+
+    <string name="action_credits">Créditos</string>
+    <string name="title_activity_credits">Créditos</string>
+    <string name="version_label">Versión:</string>
+    <string name="copyright">ABLE App \u00A9 2015 Ariadna Servicios Informáticos, S.L.</string>
+    <string name="contact_label">Contacto:</string>
+    <string name="contact_email">inf@asi-soft.com</string>
+    <string name="developed_by_label">Desarrollado por:</string>
+    <string name="developer">Javier Sánchez Hernández</string>
+    <string name="definition">Esta App integra los tres servicios ofrecidos por los partners del Consorcio Able to Include.</string>
+    <string name="definition_simplext">Simplext: Universidad Pompeu Fabra &amp; Ariadna S.I.</string>
+    <string name="definition_text2picto">Text2Picto: Katholieke Universiteit Leuven.</string>
+    <string name="definition_eSpeak">eSpeak: una herramienta open source de Text2Speech.</string>
+
+
+    <string name="conversion_error">Error de conversión</string>
+    <string name="conversion_error_explanation">Hubo un problema al convertir el texto.</string>
+    <string name="availability_error">Error de disponibilidad</string>
+    <string name="availability_error_explanation">El servicio seleccionado no está disponible para el idioma %1$s.</string>
+
+    <string name="service_error">Error en el servicio</string>
+    <string name="error408">Tiempo de espera agotado</string>
+    <string name="error451">No ha introducido texto</string>
+    <string name="error452">No ha introducido idioma</string>
+    <string name="error453">No ha introducido tipo de pictograma</string>
+    <string name="error454">No ha introducido ni texto ni idioma</string>
+    <string name="error455">No ha introducido ni texto ni idioma ni tipo de pictograma</string>
+    <string name="error456">No ha introducido ni idioma ni tipo de pictograma</string>
+    <string name="error457">No ha introducido ni texto ni tipo de pictograma</string>
+    <string name="error458">El idioma no es válido</string>
+    <string name="error459">El tipo de pictograma no es válido</string>
+</resources>

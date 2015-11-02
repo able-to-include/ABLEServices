@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/language"
+        android:id="@+id/textViewLanguage2"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/colorSecondary"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerLanguage2"
+        android:layout_toRightOf="@+id/textViewLanguage2"
+        android:layout_toEndOf="@+id/textViewLanguage2"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/pref_title_pictogram_base"
+        android:id="@+id/textViewPictogramType"
+        android:layout_below="@+id/spinnerLanguage2"
+        android:textColor="@color/colorSecondary"
+        android:layout_marginTop="10sp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerPictogramType"
+        android:layout_toRightOf="@+id/textViewPictogramType"
+        android:layout_toEndOf="@+id/textViewPictogramType"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5sp"
+        android:layout_alignTop="@+id/textViewPictogramType" />
+
+
+    <TextView
+        android:id="@+id/textViewExplanation2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/input_text"
+        android:textColor="@color/colorSecondary"
+        android:layout_below="@+id/spinnerPictogramType"
+        android:layout_marginTop="10sp"/>
+
+    <EditText
+        android:id="@+id/editTextInput2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewExplanation2"
+        android:layout_above="@+id/buttonText2Picto"
+        android:hint="@string/input_hint"
+        android:singleLine="false"
+        android:textColor="@color/colorSecondary"
+        android:gravity="top"
+        android:textStyle="italic"/>
+
+
+        <ImageButton
+            android:id="@+id/buttonText2Picto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_action_picture"
+            android:text="@string/action_text2picto"
+            android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
